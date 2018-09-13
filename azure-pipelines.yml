@@ -16,8 +16,3 @@ steps:
     npm install -g webpack now webpack-cli --save-dev
     npm run build
   displayName: 'npm install, run webpack'
-
--- script: |
-    cd ./dist
-    now --token $NOW_TOKEN
-  displayName: 'now deployment'
