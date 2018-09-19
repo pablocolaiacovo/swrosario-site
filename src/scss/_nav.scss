@@ -1,0 +1,42 @@
+.navbar {
+    color: $white;
+    padding: 10px 0;
+
+    .navbar-item {
+        color: $white;
+
+        .logo {
+            max-height: inherit;
+            width: 235px;
+
+            @media #{$tablet-down} {
+                width: 150px;
+            }
+        }
+    }
+
+    .navbar-burger {
+        color: $white;
+    }
+
+    @media #{$tablet-down} {
+        .control {
+            width: 100%;
+
+            .button {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.navbar-menu.is-active {
+    position: absolute;
+    width: 100%;
+}
+
+.ticket {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $green;
+}

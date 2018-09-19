@@ -1,0 +1,21 @@
+.index-background {
+    background: url('../img/Foto-Index.png') no-repeat center;
+    background-size: cover;
+    height: 720px;
+
+    @media #{$tablet-down} {
+        height: 650px;
+    }
+
+    .hero-head {
+        background-color: $green;
+    }
+
+    .save-the-date {
+        padding-bottom: 50px;
+
+        img {
+            max-width: 650px;
+        }
+    }
+}
