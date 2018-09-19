@@ -2,6 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     entry: {
@@ -23,7 +24,10 @@ module.exports = {
             // both options are optional
             filename: '[name].css',
             chunkFilename: '[id].css'
-        })
+        }),
+        new CopyWebpackPlugin([
+            { from: 'src/img', to: 'img' }
+        ])
     ],
     devServer: {
         contentBase: './dist'
@@ -47,6 +51,18 @@ module.exports = {
                     // compiles Sass to CSS, using Node Sass by default
                     loader: "sass-loader", options: {
                         sourceMap: true
+                    }
+                },
+            ]
+        },
+        {
+            test: /\.(png|jpg|gif)$/,
+            use: [
+                {
+                    loader: 'file-loader',
+                    options: {
+                        emitFile: true,
+                        outputPath: 'img/'
                     }
                 }
             ]

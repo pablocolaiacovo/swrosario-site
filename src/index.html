@@ -3,31 +3,61 @@
 
 <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
     <title>
         <%= htmlWebpackPlugin.options.title %>
     </title>
 </head>
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis turpis vel elit molestie porta. Nulla elementum
-    nisi mauris, et eleifend lectus maximus nec. Mauris vel elit vel ligula hendrerit tincidunt. Aliquam molestie enim
-    urna, non tincidunt sem sodales vitae. Fusce eu nulla tempor, condimentum velit a, dictum orci. Mauris rhoncus
-    neque id dui interdum varius. Fusce gravida felis at risus efficitur interdum. Maecenas est odio, malesuada ut
-    gravida sed, imperdiet ac mi. Suspendisse quis condimentum libero. Nulla cursus mauris sit amet urna cursus, at
-    iaculis mauris auctor. Etiam gravida pulvinar viverra. Curabitur urna neque, feugiat at dolor quis, pharetra
-    dignissim eros. Nam condimentum faucibus ante, sed sollicitudin quam aliquam id.
-</p>
-<p>
-    Praesent ligula turpis, condimentum eget blandit et, hendrerit vitae orci. Fusce sed placerat elit. Aenean eu
-    hendrerit enim, vitae dictum libero. Fusce sed metus lectus. Sed iaculis ipsum arcu, in varius libero dictum sit
-    amet. Duis dui arcu, venenatis id elit eget, efficitur tincidunt enim. Fusce varius nisl at sapien aliquet,
-    vehicula cursus nisl tincidunt. Suspendisse potenti. Proin porta semper arcu. Vestibulum elit urna, placerat et
-    aliquam eu, ultrices sed augue. Duis ornare, ante vel molestie gravida, dui velit consequat leo, dictum venenatis
-    lectus nibh quis augue. Sed posuere magna malesuada urna pellentesque convallis. Maecenas nec auctor ipsum, ac
-    ultricies ipsum. Curabitur eget dictum orci, vel egestas justo. In condimentum accumsan ex ac gravida. Maecenas
-    ultricies purus sagittis nunc malesuada, a aliquet velit luctus.
-</p>
 
 <body>
+    <section class="hero index-background is-fullheight">
+        <div class="hero-head">
+            <nav class="navbar container" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="/">
+                        <img src="img/logo.png" alt="Startup Weekend 2018" />
+                    </a>
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarContent">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div id="navbarContent" class="navbar-menu">
+                    <div class="navbar-end">
+                        <div class="navbar-item">
+                            <div class="field is-grouped">
+                                <p class="control">
+                                    <a class="button is-primary" href="https://bit.ly/swrosario18" target="_blank">
+                                        <span class="icon">
+                                            <i class="fas fa-ticket-alt"></i>
+                                        </span>
+                                        <span class="ticket">Ticket!</span>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="contol has-text-centered save-the-date">
+                    <img src="img/fecha.png" alt="save the date" />
+                </div>
+                <div class="control has-text-centered">
+                    <a class="button is-primary" href="https://bit.ly/swrosario18" target="_blank">
+                        <span class="icon">
+                            <i class="fas fa-ticket-alt"></i>
+                        </span>
+                        <span class="ticket">Ticket!</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>

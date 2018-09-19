@@ -1,1 +1,100 @@
-@import "~bulma/bulma.sass"
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* Colors */
+$green: #0db14b;
+$white: #FFF;
+$yellow: #fbbe4a;
+$turchese: #5bc4b2;
+$viola: #693389;
+
+/* Derived colors */
+$navbar-background-color: $green;
+
+/* Fonts */
+$font-family: 'Montserrat',
+sans-serif;
+
+/* == Responsive
+===================================================== */
+
+$mobile: 320px;
+$tablet: 768px;
+$desktop: 980px;
+$wide: 1400px;
+$mobile-max: $tablet - 1;
+$tablet-max: $desktop - 1;
+$tablet-min: $tablet;
+$tablet-vert: $tablet;
+$desktop-max: 1400px;
+$phablet-min: 560px;
+$ipadpro-landscape-max: 1366px;
+// usage
+// @media #{$mobile-only} {}
+$mobile-only: "(max-width: "+$mobile-max+")";
+$tablet-only: "(min-width: "+$tablet+") and (max-width: "+$tablet-max+")";
+$desktop-only: "(min-width: "+$desktop+")";
+$phablet-up: "(min-width: "+$phablet-min+")";
+$phablet-down: "(max-width: "+$phablet-min+")";
+$tablet-up: "(min-width: "+$tablet+")";
+$tablet-down: "(max-width: "+$tablet-max+")";
+$tablet-min-down: "(max-width: "+$tablet-min+")";
+$tablet-min-up: "(min-width: "+$tablet-min+")";
+$ipadpro-landscape-down: "(max-width: "+$ipadpro-landscape-max+")";
+
+// Import only what you need from Bulma
+@import "~bulma/bulma.sass";
+
+body {
+    background-color: $green;
+    font-family: $font-family;
+
+    .navbar {
+        color: $white;
+
+        .navbar-item {
+            color: $white;
+        }
+
+        .navbar-burger {
+            color: $white;
+        }
+
+        @media #{$tablet-down} {
+            .control {
+                width: 100%;
+
+                .button {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .index-background {
+        background: url('../img/Foto-Index.png') no-repeat center;
+        background-size: cover;
+        height: 720px;
+
+        @media #{$tablet-down} {
+            height: 650px;
+        }
+
+        .hero-head {
+            background-color: $green;
+        }
+
+        .save-the-date {
+            padding-bottom: 50px;
+        }
+    }
+
+    .ticket {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+
+.navbar-menu.is-active {
+    position: absolute;
+    width: 100%;
+}
