@@ -7,11 +7,7 @@
 
         .logo {
             max-height: inherit;
-            width: 235px;
-
-            @media #{$tablet-down} {
-                width: 150px;
-            }
+            width: 150px;
         }
     }
 

@@ -15,7 +15,15 @@
         padding-bottom: 50px;
 
         img {
-            max-width: 650px;
+            max-width: 480px;
         }
+    }
+
+    .ticket-button {
+        min-width: 350px;
+    }
+
+    .clock-column {
+        padding: 50px 0;
     }
 }
