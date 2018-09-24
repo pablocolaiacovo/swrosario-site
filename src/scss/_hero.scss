@@ -1,11 +1,11 @@
 .index-background {
     background: url('../img/Foto-Index.png') no-repeat center;
     background-size: cover;
-    height: 720px;
+    // height: 720px;
 
-    @media #{$tablet-down} {
-        height: 650px;
-    }
+    // @media #{$tablet-down} {
+    //     height: 650px;
+    // }
 
     .hero-head {
         background-color: $green;
@@ -16,14 +16,35 @@
 
         img {
             max-width: 480px;
+
+            @media #{$tablet-down} {
+                width: 100%;
+                max-width: auto;
+            }
         }
     }
 
     .ticket-button {
         min-width: 350px;
+
+        @media #{$mobile-only} {
+            min-width: auto;
+            width: 100%;
+        }
     }
 
-    .clock-column {
-        padding: 50px 0;
+    .clock-columns {
+        @media #{$tablet-down} {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .clock-column {
+            padding: 50px 0;
+
+            @media #{$mobile-only} {
+                padding: 0;
+            }
+        }
     }
 }
