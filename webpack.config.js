@@ -16,7 +16,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(['dist']),
         new HtmlWebpackPlugin({
-            title: 'Startup Weekend 2018',
+            title: 'Startup Weekend Rosario 2018 | 54hs De Pura Acción',
             template: 'src/index.html'
         }),
         new MiniCssExtractPlugin({
