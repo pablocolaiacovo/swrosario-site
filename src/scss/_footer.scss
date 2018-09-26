@@ -1,0 +1,45 @@
+.footer {
+    background-color: $green;
+    padding-bottom: 3rem;
+
+    .footer-links {
+        a {
+            color: $white;
+
+            &:hover {
+                color: $white;
+            }
+
+            &:active {
+                color: $white;
+            }
+        }
+    }
+
+    .social-icons {
+        display: flex;
+        flex-direction: row-reverse;
+
+        .social-icon {
+            @media #{$tablet-down} {
+                flex: 1;
+            }
+
+            @media #{$desktop-only} {
+                padding-left: 1rem;
+            }
+
+            a {
+                color: $white;
+
+                &:hover {
+                    color: $white;
+                }
+
+                &:active {
+                    color: $white;
+                }
+            }
+        }
+    }
+}
