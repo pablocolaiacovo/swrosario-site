@@ -8,6 +8,18 @@
     <title>
         <%= htmlWebpackPlugin.options.title %>
     </title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-52104815-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-52104815-4');
+    </script>
 </head>
 
 <body>
@@ -69,8 +81,10 @@
                 </div>
                 <div class="column has-text-centered-mobile has-text-centered-tablet">
                     <ul class="social-icons">
-                        <li class="social-icon"><a href="https://www.facebook.com/startupweekendrosario" target="_blank"><i class="fab fa-facebook is-size-1"></i></a></li>
-                        <li class="social-icon"><a href="https://www.instagram.com/swrosario18" target="_blank"><i class="fab fa-instagram is-size-1"></i></a></li>
+                        <li class="social-icon"><a href="https://www.facebook.com/startupweekendrosario" target="_blank"><i
+                                    class="fab fa-facebook is-size-1"></i></a></li>
+                        <li class="social-icon"><a href="https://www.instagram.com/swrosario18" target="_blank"><i
+                                    class="fab fa-instagram is-size-1"></i></a></li>
                         <li class="social-icon"><a href="https://twitter.com/swrosario18" target="_blank"><i class="fab fa-twitter-square is-size-1"></i></a></li>
                     </ul>
                 </div>
