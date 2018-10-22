@@ -26,7 +26,8 @@ module.exports = {
             chunkFilename: '[id].css'
         }),
         new CopyWebpackPlugin([
-            { from: 'src/img', to: 'img' }
+            { from: 'src/img', to: 'img' },
+            { from: 'src/fsg0291e.txt', to: ''}
         ])
     ],
     devServer: {
