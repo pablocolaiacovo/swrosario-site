@@ -27,7 +27,8 @@ module.exports = {
         }),
         new CopyWebpackPlugin([
             { from: 'src/img', to: 'img' },
-            { from: 'src/fsg0291e.txt', to: ''}
+            { from: 'src/fsg0291e.txt', to: ''},
+            { from: 'src/sitemap.xml', to: ''}
         ])
     ],
     devServer: {
