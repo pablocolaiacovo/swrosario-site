@@ -29,7 +29,7 @@ module.exports = {
             { from: 'src/img', to: 'img' },
             { from: 'src/fsg0291e.txt', to: ''},
             { from: 'src/sitemap.xml', to: ''},
-            { from: 'src/robots', to: ''}
+            { from: 'src/robots.txt', to: ''}
         ])
     ],
     devServer: {
