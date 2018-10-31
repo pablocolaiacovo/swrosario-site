@@ -19,10 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // var deadline = new Date(2018, 09, 26, 17, 0, 0);
-    // initializeClock('clockdiv', deadline);
-
-    $('#clock').countdown('2018/10/26 17:00', function (event) {
-        $(this).html(event.strftime('%D Días %H:%M:%S'));
-    });
+    // $('#clock').countdown('2018/10/26 17:00', function (event) {
+    //     $(this).html(event.strftime('%D Días %H:%M:%S'));
+    // });
 });
