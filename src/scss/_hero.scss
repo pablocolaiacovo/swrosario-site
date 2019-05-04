@@ -3,7 +3,7 @@
     background-size: cover;
 
     .hero-head {
-        background-color: $green;
+        background-color: $cian;
     }
 
     .save-the-date {
@@ -16,6 +16,11 @@
                 width: 100%;
                 max-width: auto;
             }
+        }
+
+        .hashtag {
+            font-weight: 600;
+            color: $white;
         }
     }
 
