@@ -1,5 +1,5 @@
 {
   "version": 2,
   "builds": [{ "src": "package.json", "use": "@now/static-build"}],
-  "alias": ["swrosario", "startupweekendrosario.co", "www.startupweekendrosario.co", "startupweekendrosario.com", "wwww.startupweekendrosario.com"]
+  "alias": ["swrosario", "startupweekendrosario.co", "www.startupweekendrosario.co", "startupweekendrosario.com", "www.startupweekendrosario.com"]
 }
