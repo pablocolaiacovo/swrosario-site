@@ -5,9 +5,9 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --open",
-    "watch": "webpack --watch",
-    "build": "webpack",
+    "start": "npx webpack-dev-server --open",
+    "watch": "npx webpack --watch",
+    "build": "npx webpack",
     "now-build": "npx webpack"
   },
   "keywords": [],

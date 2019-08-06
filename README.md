@@ -1,2 +1,1 @@
-# swrosario
-Startup Weekend Rosario 2019
+# Startup Weekend Rosario
