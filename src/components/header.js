@@ -17,49 +17,24 @@ const Header = ({ siteTitle }) => {
   `)
 
   return (
-    <header>
-      <nav className="navbar navbar-dark bg-dark">
-        <section className="container">
-          <Link className="navbar-brand mr-auto" to="/">
+    <header style={{ backgroundColor: "#d5363c" }}>
+      <nav className="navbar navbar-dark">
+        <section className="container justify-content-center justify-content-md-end">
+          <Link
+            className="mr-md-auto mx-auto mx-md-0 navbar-brand text-center"
+            to="/"
+          >
             <Img fixed={data.placeholderImage.childImageSharp.fixed} />
           </Link>
           <a
-            className="btn btn-primary rounded-pill text-uppercase"
+            className="btn rounded-pill text-uppercase bg-white text-danger"
             href="https://www.eventbrite.com/e/entradas-techstars-global-startup-weekend-rosario-women-66478730673?aff=eprofsaved"
-            target="_blank"
           >
             ¡Conseguí tu entrada!
           </a>
         </section>
       </nav>
     </header>
-
-    // <header
-    //   style={{
-    //     background: `rebeccapurple`,
-    //     marginBottom: `1.45rem`,
-    //   }}
-    // >
-    //   <div
-    //     style={{
-    //       margin: `0 auto`,
-    //       maxWidth: 960,
-    //       padding: `1.45rem 1.0875rem`,
-    //     }}
-    //   >
-    //     <h1 style={{ margin: 0 }}>
-    //       <Link
-    //         to="/"
-    //         style={{
-    //           color: `white`,
-    //           textDecoration: `none`,
-    //         }}
-    //       >
-    //         {siteTitle}
-    //       </Link>
-    //     </h1>
-    //   </div>
-    // </header>
   )
 }
 

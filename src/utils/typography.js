@@ -18,6 +18,7 @@ const typography = new Typography({
     "Noto Color Emoji",
   ],
   bodyFontFamily: ["-apple-system", "serif"],
+  backgroundColor: "d5363c",
 })
 
 export default typography
