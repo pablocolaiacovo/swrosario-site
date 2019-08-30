@@ -9,7 +9,7 @@ const Jumbotron = ({}) => {
       calendar: file(relativePath: { eq: "fecha-sw-woman.png" }) {
         childImageSharp {
           fluid(maxWidth: 500) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp_noBase64
             presentationWidth
           }
         }

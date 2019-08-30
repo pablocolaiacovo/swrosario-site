@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => {
       placeholderImage: file(relativePath: { eq: "logo-sw-woman.png" }) {
         childImageSharp {
           fixed(width: 235) {
-            ...GatsbyImageSharpFixed
+            ...GatsbyImageSharpFixed_withWebp_noBase64
           }
         }
       }
