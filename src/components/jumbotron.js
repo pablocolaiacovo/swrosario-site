@@ -1,7 +1,9 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
-import backgroundImage from "../images/foto-index2019-woman.jpg"
+import BackgroundImage from "gatsby-background-image"
+
+import "./jumbotron.module.scss"
 
 const Jumbotron = ({}) => {
   const data = useStaticQuery(graphql`
@@ -19,18 +21,23 @@ const Jumbotron = ({}) => {
           hashtags
         }
       }
+      background: file(relativePath: { eq: "foto-index2019-woman.jpg" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
     }
   `)
 
+  const imageData = data.background.childImageSharp.fluid
+
   return (
-    <div
+    <BackgroundImage
+      fluid={imageData}
+      backgroundColor={`#d5363c`}
       className="jumbotron mb-0"
-      style={{
-        background: `url(${backgroundImage}) no-repeat center`,
-        backgroundSize: "cover",
-        borderRadius: 0,
-        backgroundColor: "transparent",
-      }}
     >
       <div className="container text-center">
         <div className="row justify-content-center">
@@ -62,7 +69,7 @@ const Jumbotron = ({}) => {
           </a>
         </div>
       </div>
-    </div>
+    </BackgroundImage>
   )
 }
 
