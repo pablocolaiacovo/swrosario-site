@@ -2,6 +2,9 @@ import { useStaticQuery, graphql, Link } from "gatsby"
 import Img from "gatsby-image"
 import PropTypes from "prop-types"
 import React from "react"
+import Navbar from "react-bootstrap/Navbar"
+import Nav from "react-bootstrap/Nav"
+import Container from "react-bootstrap/Container"
 
 const Header = ({ siteTitle }) => {
   const data = useStaticQuery(graphql`
@@ -17,24 +20,29 @@ const Header = ({ siteTitle }) => {
   `)
 
   return (
-    <header style={{ backgroundColor: "#d5363c" }}>
-      <nav className="navbar navbar-dark">
-        <section className="container justify-content-center justify-content-md-end">
+    <section style={{ backgroundColor: "#d5363c" }}>
+      <Container>
+        <Navbar collapseOnSelect expand="lg" variant="dark">
           <Link
             className="mr-md-auto mx-auto mx-md-0 navbar-brand text-center"
             to="/"
           >
             <Img fixed={data.placeholderImage.childImageSharp.fixed} />
           </Link>
-          <a
-            className="btn rounded-pill text-uppercase bg-white text-danger"
-            href="https://www.eventbrite.com/e/entradas-techstars-global-startup-weekend-rosario-women-66478730673?aff=eprofsaved"
-          >
-            ¡Conseguí tu entrada!
-          </a>
-        </section>
-      </nav>
-    </header>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="ml-auto">
+              <Nav.Link
+                href="https://www.eventbrite.com/e/entradas-techstars-global-startup-weekend-rosario-women-66478730673?aff=eprofsaved"
+                className="btn rounded-pill text-uppercase bg-white text-danger"
+              >
+                ¡Conseguí tu entrada!
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
+      </Container>
+    </section>
   )
 }
 
