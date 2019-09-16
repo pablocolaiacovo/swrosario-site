@@ -1,38 +1,55 @@
 {
-  "name": "sw2019",
-  "version": "1.0.0",
-  "description": "",
+  "name": "sw-rosario",
   "private": true,
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx webpack-dev-server --open",
-    "watch": "npx webpack --watch",
-    "build": "npx webpack",
-    "now-build": "npx webpack"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "clean-webpack-plugin": "^0.1.19",
-    "copy-webpack-plugin": "^4.6.0",
-    "css-loader": "^1.0.1",
-    "express": "^4.16.4",
-    "file-loader": "^2.0.0",
-    "html-webpack-plugin": "^3.2.0",
-    "mini-css-extract-plugin": "^0.4.5",
-    "node-sass": "^4.12.0",
-    "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1",
-    "webpack": "^4.30.0",
-    "webpack-cli": "^3.3.1",
-    "webpack-dev-middleware": "^3.6.2",
-    "webpack-dev-server": "^3.3.1"
-  },
+  "description": "Startup Weekend Rosario",
+  "version": "0.1.0",
+  "author": "Pablo Colaiacovo",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.3.1",
-    "bulma": "^0.7.4",
-    "jquery": "^3.4.1",
-    "jquery-countdown": "^2.2.0"
+    "@fortawesome/fontawesome-free": "^5.10.2",
+    "bootstrap": "^4.3.1",
+    "bulma": "^0.7.5",
+    "gatsby": "^2.13.64",
+    "gatsby-background-image": "^0.8.6",
+    "gatsby-image": "^2.2.8",
+    "gatsby-plugin-manifest": "^2.2.5",
+    "gatsby-plugin-offline": "^2.2.6",
+    "gatsby-plugin-react-helmet": "^3.1.3",
+    "gatsby-plugin-robots-txt": "^1.5.0",
+    "gatsby-plugin-sass": "^2.1.8",
+    "gatsby-plugin-sharp": "^2.2.11",
+    "gatsby-plugin-sitemap": "^2.2.9",
+    "gatsby-plugin-typography": "^2.3.5",
+    "gatsby-source-filesystem": "^2.1.9",
+    "gatsby-transformer-sharp": "^2.2.6",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.1",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
