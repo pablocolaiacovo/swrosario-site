@@ -58,7 +58,6 @@ module.exports = {
       options: {
         host: "https://www.startupweekendrosario.com",
         sitemap: "https://www.startupweekendrosario.com/sitemap.xml",
-        resolveEnv: () => process.env.GATSBY_ACTIVE_ENV,
         env: {
           development: {
             policy: [{ userAgent: "*", disallow: ["/"] }],
