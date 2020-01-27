@@ -7,7 +7,7 @@
   ],
   "build": {
     "env": {
-      "GATSBY_CONTENTFUL_ACCESS_TOKEN": "sw_gatsby_contentful_access_token"
+      "GATSBY_CONTENTFUL_ACCESS_TOKEN": "@sw_gatsby_contentful_access_token"
     }
   }
 }
