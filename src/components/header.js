@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => {
 
   return (
     <section style={{ backgroundColor: "#d5363c" }}>
-      <Container>
+      <Container fluid="true">
         <Navbar collapseOnSelect expand="lg" variant="dark">
           <Link
             className="mr-md-auto mx-auto mx-md-0 navbar-brand text-center"
