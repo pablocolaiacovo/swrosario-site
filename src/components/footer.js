@@ -1,7 +1,11 @@
+/** @jsx jsx */
+
 import React from "react"
+import { jsx } from "theme-ui"
 import { useStaticQuery, graphql } from "gatsby"
 import "@fortawesome/fontawesome-free/scss/fontawesome.scss"
 import "@fortawesome/fontawesome-free/scss/brands.scss"
+import Nav from "react-bootstrap/Nav"
 
 const Footer = () => {
   const data = useStaticQuery(
@@ -24,21 +28,26 @@ const Footer = () => {
   )
 
   return (
-    <footer className="py-3" style={{ backgroundColor: "#d5363c" }}>
-      <section className="container">
+    <footer
+      className="py-3"
+      sx={{
+        backgroundColor: "primary",
+      }}
+    >
+      <section className="container-fluid">
         <div className="row">
           <div className="col-md-6">
-            <ul className="list-unstyled m-0 mb-2 text-center text-md-left">
+            <Nav as="ul" className="m-1">
               {data.site.siteMetadata.footerLinks.map((l, i) => {
                 return (
-                  <li className="mb-0" key={i}>
-                    <a href={l.url} className="text-white">
+                  <Nav.Item as="li" key={i}>
+                    <Nav.Link href={l.url} className="text-white">
                       {l.text}
-                    </a>
-                  </li>
+                    </Nav.Link>
+                  </Nav.Item>
                 )
               })}
-            </ul>
+            </Nav>
           </div>
           <div className="col-md-6">
             <ul className="nav justify-content-around justify-content-md-end text-white m-0">

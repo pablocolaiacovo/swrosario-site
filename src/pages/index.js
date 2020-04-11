@@ -2,12 +2,16 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Jumbotron from "../components/jumbotron"
+import Hero from "../components/hero"
+import NewsContainer from "../components/newsContainer"
+import OrganizersContainer from "../components/organizersContainer"
 
 const IndexPage = () => (
   <Layout>
     <SEO />
-    <Jumbotron />
+    <Hero />
+    <NewsContainer />
+    <OrganizersContainer />
   </Layout>
 )
 

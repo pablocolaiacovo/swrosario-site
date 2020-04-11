@@ -6,4 +6,6 @@
 
 // You can delete this file if you're not using it
 
-// import "./node_modules/bootstrap/scss/bootstrap.scss"
+import "bootstrap/scss/bootstrap-grid.scss"
+import "@fortawesome/fontawesome-free/css/all.css"
+import "./src/styles/global.scss"
