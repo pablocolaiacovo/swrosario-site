@@ -3,8 +3,6 @@
 import React from "react"
 import { jsx } from "theme-ui"
 import { useStaticQuery, graphql } from "gatsby"
-import "@fortawesome/fontawesome-free/scss/fontawesome.scss"
-import "@fortawesome/fontawesome-free/scss/brands.scss"
 import Nav from "react-bootstrap/Nav"
 
 const Footer = () => {
