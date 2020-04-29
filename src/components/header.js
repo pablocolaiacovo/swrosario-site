@@ -63,10 +63,10 @@ const Header = ({ siteTitle }) => {
           >
             ¡Conseguí tu entrada!
           </Nav.Link>
-          <Nav.Link className="text-white">Noticias</Nav.Link>
+          {/* <Nav.Link className="text-white">Noticias</Nav.Link>
           <Nav.Link className="text-white">Ediciones Pasadas</Nav.Link>
           <Nav.Link className="text-white">Quienes Somos</Nav.Link>
-          <Nav.Link className="text-white">Contacto</Nav.Link>
+          <Nav.Link className="text-white">Contacto</Nav.Link> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

@@ -48,12 +48,6 @@ module.exports = {
     },
     `gatsby-plugin-sass`,
     {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
-    {
       resolve: "gatsby-plugin-robots-txt",
       options: {
         host: "https://www.startupweekendrosario.com",

@@ -9,6 +9,11 @@
 }
 
 @font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../static/fonts/montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
   font-family: "Montserrat-ExtraLight";
   src: url("../static/fonts/montserrat/Montserrat-ExtraLight.ttf");
 }
@@ -16,4 +21,30 @@
 @font-face {
   font-family: "Montserrat-Light";
   src: url("../static/fonts/montserrat/Montserrat-Light.ttf");
+}
+
+body {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 300;
+  background: url("../static/images/background.png");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Montserrat-Bold", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 500;
 }

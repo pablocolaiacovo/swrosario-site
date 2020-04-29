@@ -12,10 +12,7 @@ const OrganizersContainer = () => {
   return (
     <Container className="my-2">
       <hr sx={{ color: "slate" }} />
-      <h2 className="text-right">
-        Quienes Somos
-        <i className="fas fa-circle ml-1" sx={{ color: "muted" }}></i>
-      </h2>
+      <h2 className="text-right">Quienes Somos</h2>
       <h3>¿Qué es Startup Weekend?</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus ex
