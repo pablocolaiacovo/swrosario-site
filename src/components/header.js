@@ -55,7 +55,7 @@ const Header = ({ siteTitle }) => {
         <Nav className="ml-auto text-white text-center">
           <Nav.Link
             href="https://www.eventbrite.com/e/entradas-techstars-global-startup-weekend-rosario-women-66478730673?aff=eprofsaved"
-            className="btn rounded-pill text-uppercase bg-white"
+            className="btn rounded-pill text-uppercase bg-white px-3"
             sx={{
               fontWeight: "bold",
             }}

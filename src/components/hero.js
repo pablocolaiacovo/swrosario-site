@@ -39,7 +39,8 @@ const Hero = ({}) => {
   return (
     <BackgroundImage
       fluid={imageData}
-      className="jumbotron mb-0 vh-100"
+      className="jumbotron mb-0"
+      style={{ height: `calc(100vh - 60px)` }}
     ></BackgroundImage>
   )
 }
