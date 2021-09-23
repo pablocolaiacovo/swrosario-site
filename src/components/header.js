@@ -9,7 +9,7 @@ import Container from "react-bootstrap/Container"
 const Header = ({ siteTitle }) => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "logo-sw-woman.png" }) {
+      placeholderImage: file(relativePath: { eq: "Logo2021.png" }) {
         childImageSharp {
           fixed(width: 235) {
             ...GatsbyImageSharpFixed_withWebp_noBase64
@@ -20,7 +20,7 @@ const Header = ({ siteTitle }) => {
   `)
 
   return (
-    <section style={{ backgroundColor: "#d5363c" }}>
+    <section style={{ backgroundColor: "#EAB43C" }}>
       <Container>
         <Navbar collapseOnSelect expand="lg" variant="dark">
           <Link
@@ -33,8 +33,9 @@ const Header = ({ siteTitle }) => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">
               <Nav.Link
-                href="https://www.eventbrite.com/e/entradas-techstars-global-startup-weekend-rosario-women-66478730673?aff=eprofsaved"
-                className="btn rounded-pill text-uppercase bg-white text-danger"
+                style={{color: '#EAB43C'}}
+                href="https://www.eventbrite.com/e/techstars-startup-weekend-rosario-diversity-inclusion-2021-tickets-168791853979"
+                className="btn rounded-pill text-uppercase bg-white"
               >
                 ¡Conseguí tu entrada!
               </Nav.Link>

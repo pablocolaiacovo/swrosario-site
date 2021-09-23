@@ -8,7 +8,7 @@ import "./jumbotron.module.scss"
 const Jumbotron = ({}) => {
   const data = useStaticQuery(graphql`
     query {
-      calendar: file(relativePath: { eq: "fecha-sw-woman.png" }) {
+      calendar: file(relativePath: { eq: "fecha-sw-2021.png" }) {
         childImageSharp {
           fluid(maxWidth: 500) {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -21,7 +21,7 @@ const Jumbotron = ({}) => {
           hashtags
         }
       }
-      background: file(relativePath: { eq: "foto-index2019-woman.jpg" }) {
+      background: file(relativePath: { eq: "Amarilla.jpg" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -62,8 +62,9 @@ const Jumbotron = ({}) => {
         />
         <div className="row">
           <a
-            className="btn rounded-pill text-uppercase bg-white text-danger mx-auto"
-            href="https://www.eventbrite.com/e/entradas-techstars-global-startup-weekend-rosario-women-66478730673?aff=eprofsaved"
+            style={{color: '#EAB43C'}}
+            className="btn rounded-pill text-uppercase bg-white mx-auto"
+            href="https://www.eventbrite.com/e/techstars-startup-weekend-rosario-diversity-inclusion-2021-tickets-168791853979"
           >
             ¡Conseguí tu entrada!
           </a>

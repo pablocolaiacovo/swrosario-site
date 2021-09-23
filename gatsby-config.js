@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Startup Weekend Rosario 2019 | 54hs De Pura Acción`,
+    title: `Startup Weekend Rosario 2021 | 54hs De Pura Acción`,
     description: `En solo 54 hs vas a experimentar toda las sensaciones de una Startup! Si tenés una idea o simplemente te gustaría contribuir en la creación de un startup, te invitamos a participar de esta increíble experiencia.`,
     author: `@swrosario_`,
     siteUrl: "https://www.startupweekendrosario.com",
@@ -15,13 +15,13 @@ module.exports = {
     ],
     footerLinks: [
       {
-        url: `https://drive.google.com/drive/folders/1j4Bv6K8VD0e8UTLtW6JITAN_fcfhDKpZ`,
+        url: `https://drive.google.com/drive/folders/1S6cdTlpGnCtFYCD61J9NRZ7R7AjhQcZk`,
         text: `Kit de prensa`,
       },
-      { url: `https://goo.gl/forms/FcaELBy7KDrITkap2`, text: `Newsletter` },
+      { url: `https://forms.gle/oRK2sDHKi6fP3HGb9`, text: `Newsletter` },
       { url: `mailto:rosario@startupweekend.org`, text: `Contacto` },
     ],
-    hashtags: ["SWRWomenEdition", "WomenPower", "WomenEdition"],
+    hashtags: ["SWRDEI", "SWR21", "SWRosario"],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -40,8 +40,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#E9A40B`,
+        theme_color: `#E9A40B`,
         display: `minimal-ui`,
         icon: `src/images/sw-icon.png`, // This path is relative to the root of the site.
       },
