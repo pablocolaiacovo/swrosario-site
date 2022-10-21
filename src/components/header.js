@@ -20,7 +20,7 @@ const Header = ({ siteTitle }) => {
   `)
 
   return (
-    <section style={{ backgroundColor: "#EAB43C" }}>
+    <section style={{ backgroundColor: "#4c19af" }}>
       <Container>
         <Navbar collapseOnSelect expand="lg" variant="dark">
           <Link
@@ -33,11 +33,11 @@ const Header = ({ siteTitle }) => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">
               <Nav.Link
-                style={{color: '#EAB43C'}}
-                href="https://www.eventbrite.com/e/techstars-startup-weekend-rosario-diversity-inclusion-2021-tickets-168791853979"
+                style={{color: '#4c19af'}}
+                href="https://tswkrosario2022.sched.com/"
                 className="btn rounded-pill text-uppercase bg-white"
               >
-                ¡Conseguí tu entrada!
+                ¡Mirá la agenda!
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
