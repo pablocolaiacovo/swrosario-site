@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Startup Weekend Rosario 2021 | 54hs De Pura Acción`,
+    title: `Startup Weekend Rosario 2022 | 54hs De Pura Acción`,
     description: `En solo 54 hs vas a experimentar toda las sensaciones de una Startup! Si tenés una idea o simplemente te gustaría contribuir en la creación de un startup, te invitamos a participar de esta increíble experiencia.`,
     author: `@swrosario_`,
     siteUrl: "https://www.startupweekendrosario.com",
@@ -21,7 +21,7 @@ module.exports = {
       { url: `https://forms.gle/oRK2sDHKi6fP3HGb9`, text: `Newsletter` },
       { url: `mailto:rosario@startupweekend.org`, text: `Contacto` },
     ],
-    hashtags: ["SWRDEI", "SWR21", "SWRosario"],
+    hashtags: ["SWR22", "SWRosario"],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

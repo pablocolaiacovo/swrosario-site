@@ -8,7 +8,19 @@
     "@fortawesome/fontawesome-free": "^5.10.2",
     "bootstrap": "^4.3.1",
     "bulma": "^0.7.5",
-    "gatsby": "^2.13.64",
+    "gatsby-core-utils": "^3.24.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.1",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "prettier": "^1.18.2",
+    "gatsby": "^2.32.13",
     "gatsby-background-image": "^0.8.6",
     "gatsby-image": "^2.2.8",
     "gatsby-plugin-manifest": "^2.2.5",
@@ -21,17 +33,7 @@
     "gatsby-plugin-typography": "^2.3.5",
     "gatsby-source-filesystem": "^2.1.9",
     "gatsby-transformer-sharp": "^2.2.6",
-    "node-sass": "^4.13.1",
-    "prop-types": "^15.7.2",
-    "react": "^16.9.0",
-    "react-bootstrap": "^1.0.0-beta.12",
-    "react-dom": "^16.9.0",
-    "react-helmet": "^5.2.1",
-    "react-typography": "^0.16.19",
-    "typography": "^0.16.19"
-  },
-  "devDependencies": {
-    "prettier": "^1.18.2"
+    "babel-preset-gatsby": "^2.24.0"
   },
   "keywords": [
     "gatsby"
@@ -51,5 +53,8 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "volta": {
+    "node": "14.20.1"
   }
 }
