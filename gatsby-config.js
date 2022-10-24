@@ -4,7 +4,7 @@ module.exports = {
     description: `En solo 54 hs vas a experimentar toda las sensaciones de una Startup! Si tenés una idea o simplemente te gustaría contribuir en la creación de un startup, te invitamos a participar de esta increíble experiencia.`,
     author: `@swrosario_`,
     siteUrl: "https://www.startupweekendrosario.com",
-    previewImage: `src/images/sw-icon.png`,
+    previewImage: `src/images/Icon.png`,
     socialLinks: [
       { url: `https://twitter.com/swrosario_`, icon: `fa-twitter` },
       { url: `https://www.instagram.com/swrosario_`, icon: `fa-instagram` },
@@ -19,7 +19,7 @@ module.exports = {
       { url: `https://forms.gle/oRK2sDHKi6fP3HGb9`, text: `Newsletter` },
       { url: `mailto:rosario@startupweekend.org`, text: `Contacto` },
     ],
-    hashtags: ["SWR22", "SWRosario"],
+    hashtags: ["SWRosario2022","SWR", "SWRosario", "SWR10thEdition"],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
