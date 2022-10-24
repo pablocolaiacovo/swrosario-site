@@ -21,7 +21,7 @@ const Jumbotron = ({}) => {
           hashtags
         }
       }
-      background: file(relativePath: { eq: "foto-indez2022.jpg" }) {
+      background: file(relativePath: { eq: "Amarilla.jpg" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
