@@ -8,7 +8,7 @@ import "./jumbotron.module.scss"
 const Jumbotron = ({}) => {
   const data = useStaticQuery(graphql`
     query {
-      calendar: file(relativePath: { eq: "fecha-sw-2021.png" }) {
+      calendar: file(relativePath: { eq: "fecha-sw-2022.png" }) {
         childImageSharp {
           fluid(maxWidth: 500) {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -21,7 +21,7 @@ const Jumbotron = ({}) => {
           hashtags
         }
       }
-      background: file(relativePath: { eq: "Amarilla.jpg" }) {
+      background: file(relativePath: { eq: "foto-indez2022.jpg" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -36,7 +36,7 @@ const Jumbotron = ({}) => {
   return (
     <BackgroundImage
       fluid={imageData}
-      backgroundColor={`#d5363c`}
+      backgroundColor={`#4c19af`}
       className="jumbotron mb-0"
     >
       <div className="container text-center">

@@ -9,7 +9,7 @@ import Container from "react-bootstrap/Container"
 const Header = ({ siteTitle }) => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "Logo2021.png" }) {
+      placeholderImage: file(relativePath: { eq: "Logo.png" }) {
         childImageSharp {
           fixed(width: 235) {
             ...GatsbyImageSharpFixed_withWebp_noBase64
