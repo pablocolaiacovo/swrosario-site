@@ -63,7 +63,7 @@ const Jumbotron = ({}) => {
         />
         <div className="row">
           <a
-            style={{color: '#EAB43C'}}
+            style={{color: '#4C19AF'}}
             className="btn rounded-pill text-uppercase bg-white mx-auto"
             href="https://tswkrosario2022.sched.com/"
           >
