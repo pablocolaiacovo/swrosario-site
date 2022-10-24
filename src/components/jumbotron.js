@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import BackgroundImage from "gatsby-background-image"
 
+
 import "./jumbotron.module.scss"
 
 const Jumbotron = ({}) => {
