@@ -8,14 +8,12 @@ module.exports = {
     socialLinks: [
       { url: `https://twitter.com/swrosario_`, icon: `fa-twitter` },
       { url: `https://www.instagram.com/swrosario_`, icon: `fa-instagram` },
-      {
-        url: `https://www.facebook.com/startupweekendrosario`,
-        icon: `fa-facebook-square`,
-      },
+      { url: `https://www.facebook.com/startupweekendrosario`, icon: `fa-facebook-square`},
+      { url: `https://www.linkedin.com/company/startupweekendrosario/`, icon: `fa-linkedin-square`},
     ],
     footerLinks: [
       {
-        url: `https://drive.google.com/drive/folders/1S6cdTlpGnCtFYCD61J9NRZ7R7AjhQcZk`,
+        url: `https://docs.google.com/document/d/1RMWd1sMcNPxbGCKU5a5YMO7XOM4P_3jjGz64keW8_p4/edit`,
         text: `Kit de prensa`,
       },
       { url: `https://forms.gle/oRK2sDHKi6fP3HGb9`, text: `Newsletter` },
