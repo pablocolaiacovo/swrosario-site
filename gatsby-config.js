@@ -9,7 +9,6 @@ module.exports = {
       { url: `https://twitter.com/swrosario_`, icon: `fa-twitter` },
       { url: `https://www.instagram.com/swrosario_`, icon: `fa-instagram` },
       { url: `https://www.facebook.com/startupweekendrosario`, icon: `fa-facebook-square`},
-      { url: `https://www.linkedin.com/company/startupweekendrosario/`, icon: `fa-linkedin-square`},
     ],
     footerLinks: [
       {
