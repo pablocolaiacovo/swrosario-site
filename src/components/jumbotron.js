@@ -64,9 +64,9 @@ const Jumbotron = ({}) => {
           <a
             style={{color: '#EAB43C'}}
             className="btn rounded-pill text-uppercase bg-white mx-auto"
-            href="https://www.eventbrite.com/e/techstars-startup-weekend-rosario-diversity-inclusion-2021-tickets-168791853979"
+            href="https://tswkrosario2022.sched.com/"
           >
-            ¡Conseguí tu entrada!
+            ¡Mirá la agenda!
           </a>
         </div>
       </div>
