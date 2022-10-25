@@ -18,7 +18,7 @@
     "typography": "^0.16.19"
   },
   "devDependencies": {
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "prettier": "^1.18.2",
     "gatsby": "^2.32.13",
     "gatsby-background-image": "^0.8.6",
