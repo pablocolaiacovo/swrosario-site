@@ -8,6 +8,7 @@ module.exports = {
     socialLinks: [
       { url: `https://twitter.com/swrosario_`, icon: `fa-twitter` },
       { url: `https://www.instagram.com/swrosario_`, icon: `fa-instagram` },
+      { url: `https://www.linkedin.com/company/startupweekendrosario/`, icon: `fa-linkedin` },
       {
         url: `https://www.facebook.com/startupweekendrosario`,
         icon: `fa-facebook-square`,
