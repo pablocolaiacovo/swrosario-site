@@ -24,7 +24,7 @@ const Footer = () => {
   )
 
   return (
-    <footer className="py-3" style={{ backgroundColor: "#EAB43C" }}>
+    <footer className="py-3" style={{ backgroundColor: "#4C19AF" }}>
       <section className="container">
         <div className="row">
           <div className="col-md-6">
